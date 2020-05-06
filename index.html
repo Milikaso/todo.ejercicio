@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO's</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div class="wrapped" id="todo">
+        <div id="addItem">
+            <label id="left">Introduzca tarea: </label> <input type="text" id="work"
+                placeholder="introduzca quereseres">
+            <label id="right"> Seleccione prioridad :</label>
+            <select id="prioridad">
+                <option value="-1">Seleccione una prioridad</option>
+                <option value="urgente" class="urgente">Urgente</option>
+                <option value="diaria" class="diaria">Diaria</option>
+                <option value="mensual" class="mensual">Mensual</option>
+            </select>
+            <button id="btnguardar" onclick="guardar()">Guardar</button>
+
+        </div>
+
+        <div id="searcher">
+            <div id=todo>
+                <i class="fas fa-search"></i>
+                <input type="text" id="filtro" class="mifiltro" placeholder="introduzca filtro">
+                <select id="searchprioridad" onchange="filtrarPrioridad()">
+                    <option value="-1">Todo</option>
+                    <option value="urgente">Urgente</option>
+                    <option value="diaria">Diaria</option>
+                    <option value="mensual">Mensual</option>
+                </select>
+
+            </div>
+
+            <div id="divlista">
+
+                <table id="lista">
+
+                </table>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js"
+        integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="js/Todo.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" data-auto-replace-svg="nest"></script>
+</body>
+
+
+
+</html>

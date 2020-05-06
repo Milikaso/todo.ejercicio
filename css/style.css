@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+
+.urgente{
+
+    background-color: red;
+}
+
+.diaria{
+
+    background-color: green;
+}
+
+.mensual{
+
+    background-color: lightskyblue;
+}
+#searcher{
+    height: 500px;
+}
+
+
+#todo{
+background-color: lightgray;  
+    
+}
+
+
+option{
+    color:black;
+}
+.mensual{
+color: black;
+    background-color: lightskyblue;
+    
+    }
+.diaria{
+    background-color:green;
+    color:black;
+    }
+.urgente{
+    background-color:red;
+color: black;
+}
+label{
+height: 45px;
+margin: 10px, 10px;
+font-size: 21px;
+width: 240px;
+color: black;
+
+}
+
+#divlista{
+display: block;
+width: 310px;
+height: 460px;
+background-color:lightblue;
+border-style: solid;
+  border-width: 5px;
+}
+
+#prioridad{
+    margin-left: auto;
+
+}
+#left{
+    font-size: 21px;
+    margin-bottom:8px;
+    background-color: lightblue;
+
+}
+#right{
+    margin-left: 546px;
+font-size: 21px;
+    margin-bottom:8px;
+    background-color: lightblue;
+    
+    
+
+}
+
+#work{
+    width: 400px;
+    
+}
+
+#addItem{
+    padding:36px;
+    display: flex;
+    margin: 40px;
+    background-color:blueviolet;
+    
+    
+}
+#btnguardar{
+    padding: 10px;
+    margin-left: 10px;
+    border-color: deeppink;
+    border-width: 5px;
+    
+}
+
+ .titulo{
+ font-size: 18px;
+ text-align: left;
+
+}
+
+#lista{
+    padding: 10px;
+    
+}
+.btneliminar{
+background-color: yellow;
+    border-color: crimson;
+}
